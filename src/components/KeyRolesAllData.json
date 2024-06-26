@@ -7,7 +7,7 @@
         "details": [
           "Developed and maintained web applications using the MERN (MongoDB, Express.js, React, Node.js) stack.",
           "Implemented features such as lazy loading, user authentication, and state management using Redux.",
-          "Utilized Azure Blob Storage for storing participant profile images and news posters in the 'Planet Quizzer' project.",
+          "Utilized Azure Blob Storage for storing participant profile images and news posters.",
           "Collaborated with cross-functional teams to deliver high-quality software solutions."
         ]
       },

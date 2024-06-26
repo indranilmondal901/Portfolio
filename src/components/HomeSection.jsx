@@ -30,9 +30,13 @@ const HomeSection = ({setRun}) => {
             <h1 className="display-3 mb-3">Indranil Mondal</h1>
             <h2 className="typed-text-output d-inline"></h2>
             <div className="d-flex align-items-center pt-5">
-              <a href="#" className="btn btn-primary py-3 px-4 me-5">
+              {/* <a href="./Indranil_Mondal_CV.pdf" className="btn btn-primary py-3 px-4 me-5">
                 Download CV
-              </a>
+              </a> */}
+              <a href="./Indranil_Mondal_CV.pdf" className="btn btn-primary py-3 px-4 me-5" download>
+  Download CV
+</a>
+
               <button
                 type="button"
                 className="btn-play"
