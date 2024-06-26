@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Expertise = () => {
+  const navigate = useNavigate();
   return (
     <div className="container-xxl py-6 pb-5" id="skill">
       <div className="container">
@@ -403,8 +405,8 @@ const Expertise = () => {
                     <hr className="text-primary my-2" />
                     <p className="text-primary mb-1">June,2023 - June,2023</p>
                     <h6 className="mb-0"> INTOLAP TECHNOLOGIES PVT LTD </h6>
-                    <button className="btn btn-primary py-2 px-3 mt-2" onClick={()=>window.open("/key-roles","blank")}>Key Roles in Company</button>
-                    <button className="btn btn-primary py-2 px-3 mt-2" onClick={()=>window.open("/professional-experience","blank")} >View All Projects</button>
+                    <button className="btn btn-primary py-2 px-3 mt-2" onClick={()=>navigate("/key-roles")}>Key Roles in Company</button>
+                    <button className="btn btn-primary py-2 px-3 mt-2" onClick={()=>navigate("/professional-experience")} >View All Projects</button>
                   </div>
                   {/* <div className="col-sm-6">
                     <h5>Product Designer</h5>

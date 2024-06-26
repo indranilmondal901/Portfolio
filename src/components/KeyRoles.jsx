@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import keyRolesAllData from './KeyRolesAllData.json'; 
+import keyRolesAllData from './KeyRolesAllData.json';
 
 const KeyRoles = () => {
   // Assuming keyRolesAllData is an array of objects
