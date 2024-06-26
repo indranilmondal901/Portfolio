@@ -1,0 +1,25 @@
+[
+  {
+    "companyName": "Intolap Technologies Pvt Ltd",
+    "keyRoles": [
+      {
+        "position": "MERN Stack Developer (Previous Role)",
+        "details": [
+          "Developed and maintained web applications using the MERN (MongoDB, Express.js, React, Node.js) stack.",
+          "Implemented features such as lazy loading, user authentication, and state management using Redux.",
+          "Utilized Azure Blob Storage for storing participant profile images and news posters in the 'Planet Quizzer' project.",
+          "Collaborated with cross-functional teams to deliver high-quality software solutions."
+        ]
+      },
+      {
+        "position": "Team Leader (Current Role)",
+        "details": [
+          "Promoted to lead a team of developers.",
+          "Responsible for project planning, task allocation, and ensuring timely delivery.",
+          "Mentor junior developers, conduct code reviews, and drive process improvements.",
+          "Foster a collaborative and productive work environment."
+        ]
+      }
+    ]
+  }
+]

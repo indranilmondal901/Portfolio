@@ -1,0 +1,67 @@
+[
+    {
+      "companyName": "Intolap Technology Pvt Ltd",
+      "projects": [
+        {
+          "title": "Planet Quizzer",
+          "details": [
+            "Developed a dynamic quiz platform integrated with a daily news feed to stimulate intellectual engagement.",
+            "Implemented an admin panel for quiz creation and management.",
+            "Optimized performance with lazy loading techniques.",
+            "Managed application state using Redux.",
+            "Utilized Azure Blob Storage for secure participant profile image and news poster storage."
+          ],
+          "url": "https://planetquizzer.com/"
+        },
+        {
+          "title": "Epelle",
+          "details": [
+            "Engineered an automated system for conducting spelling bee competitions, akin to the renowned event in Paris.",
+            "Streamlined competition scheduling and initiation through Epelle admin and CLI interfaces.",
+            "Enhanced user experience with lazy loading, significantly reducing website load times.",
+            "Integrated OpenAI API to generate challenging words for competitions.",
+            "Improved backend efficiency with aggregation for rapid I/O operations.",
+            "Built and utilized a custom npm package in the live project to enhance functionality."
+          ],
+          "url": "https://epelle.com"
+        },
+        {
+          "title": "Team Decoder - Versions V4.5, V4.5.1, V4.5.2, V4.5.3",
+          "details": [
+            "Resolved critical bugs in version 4.5 and introduced innovative features such as workload management, aggregated statistics, drag-and-drop functionality, and hotfixes for enhanced website performance.",
+            "Introduced FTE calculation in version 4.5.1, improving workload management.",
+            "Implemented workload feature in version 4.5.2, increasing team efficiency.",
+            "Launched Compare Mode in version 4.5.3, enabling better performance analysis."
+          ],
+          "url": "https://app.teamdecoder.com/"
+        },
+        {
+          "title": "Launch Me Loud",
+          "details": [
+            "Designed the frontend for an admin panel of a business building and monitoring application.",
+            "Architected the backend schema in MongoDB for robust data management in key areas."
+          ],
+          "url": "https://www.launchmeloud.com/"
+        },
+        {
+          "title": "Boocademy - Pilot Project",
+          "details": [
+            "Created an application that enables users to craft books using prompt generation via OpenAI API.",
+            "Facilitated book publishing in PDF format and implemented text-to-speech conversion using the Narakeet API, allowing users to download audio versions of their books."
+          ],
+          "url": "https://boocademy.com"
+        },
+        {
+          "title": "Sportojet - Admin Panel",
+          "details": [
+            "Developed a comprehensive football team and coach management application.",
+            "Implemented a feedback system to guide player development across various skill aspects.",
+            "Introduced AI-driven detailed player comparisons, automated reporting, review generation, and video suggestions using Azure Blob Storage.",
+            "Integrated Whisper API for on-field analysis and utilized text refinement tools like options for enhanced communication."
+          ],
+          "url": "https://sportojet.com/"
+        }
+      ]
+    }
+  ]
+  

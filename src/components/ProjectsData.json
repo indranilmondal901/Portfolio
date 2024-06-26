@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "title": "Youtube Clone",
+      "image": "img/project-yt.jpg",
+      "category": "FrontEnd",
+      "lightboxImage": "img/project-yt.jpg",
+      "externalLink": "https://yt-clone-sdu1.onrender.com"
+    },
+    {
+      "id": 2,
+      "title": "CodePen Clone",
+      "image": "img/project-code-pen-clone.jpg",
+      "category": "FrontEnd",
+      "lightboxImage": "img/project-code-pen-clone.jpg",
+      "externalLink": "https://playful-blini-f3d0bf.netlify.app/"
+    },
+    {
+      "id": 3,
+      "title": "AI GPT 3 Clone",
+      "image": "img/project-gpt3-clone.jpg",
+      "category": "Full Stack",
+      "lightboxImage": "img/project-gpt3-clone.jpg",
+      "externalLink": "https://chatgpt-clone-mrvc.onrender.com/"
+    },
+    {
+      "id": 4,
+      "title": "NPM Package : indra-timer",
+      "image": "img/project-indra-timer.jpg",
+      "category": "package",
+      "lightboxImage": "img/project-indra-timer.jpg",
+      "externalLink": "https://www.npmjs.com/package/indra-timer"
+    },
+    {
+      "id": 5,
+      "title": "Modern Landing Page",
+      "image": "img/project-modern-landing-page.jpg",
+      "category": "Frontend",
+      "lightboxImage": "img/project-modern-landing-page.jpg",
+      "externalLink": ""
+    },
+    {
+      "id": 6,
+      "title": "Chrome-extension",
+      "image": "img/project-chrome-extension.jpg",
+      "category": "chrome-extension",
+      "lightboxImage": "img/project-chrome-extension.jpg",
+      "externalLink": "https://github.com/indranilmondal901/chrome-extensions"
+    },
+    {
+      "id": 7,
+      "title": "Tuner- Video Sharing App",
+      "image": "img/project-tuner.jpg",
+      "category": "Tuner",
+      "lightboxImage": "img/project-tuner.jpg",
+      "externalLink": "https://tuner-video-sharing.onrender.com/"
+    },
+    {
+      "id": 8,
+      "title": "Modern Auth System",
+      "image": "img/project-modern-auth.jpg",
+      "category": "Tuner",
+      "lightboxImage": "img/project-modern-auth.jpg",
+      "externalLink": "https://github.com/indranilmondal901/Advance_Modern_Auth_System"
+    }
+  ]
+  
