@@ -11,10 +11,8 @@
     };
     spinner();
     
-    
     // Initiate the wowjs
     new WOW().init();
-
 
     // Navbar on scrolling
     $(window).scroll(function () {
@@ -24,7 +22,6 @@
             $('.navbar').fadeOut('slow').css('display', 'none');
         }
     });
-
 
     // Smooth scrolling on the navbar links
     $(".navbar-nav a").on('click', function (event) {
@@ -41,8 +38,7 @@
             }
         }
     });
-    
-    
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -55,7 +51,6 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
-    
 
     // Typed Initiate
     if ($('.typed-text-output').length == 1) {
@@ -69,13 +64,11 @@
         });
     }
 
-
     // Modal Video
     var $videoSrc;
     $('.btn-play').click(function () {
         $videoSrc = $(this).data("src");
     });
-    console.log($videoSrc);
     $('#videoModal').on('shown.bs.modal', function (e) {
         $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
     })
@@ -83,13 +76,11 @@
         $("#video").attr('src', $videoSrc);
     })
 
-
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
         delay: 10,
         time: 2000
     });
-
 
     // Skills
     $('.skill').waypoint(function () {
@@ -97,7 +88,6 @@
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
         });
     }, {offset: '80%'});
-
 
     // Portfolio isotope and filter
     var portfolioIsotope = $('.portfolio-container').isotope({
@@ -111,7 +101,6 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
 
-
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
@@ -121,6 +110,4 @@
         loop: true,
     });
 
-    
 })(jQuery);
-
