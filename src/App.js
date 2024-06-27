@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Joyride from "react-joyride";
 import HomeSection from "./components/HomeSection";
 import About from "./components/About";
@@ -54,7 +54,7 @@ const App = () => {
   ]);
 
   return (
-    <BrowserRouter>
+    <Router>
       <Joyride
         steps={steps}
         run={run}
@@ -92,7 +92,7 @@ const App = () => {
         />
         <Route path="/key-roles" element={<KeyRoles />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 };
 
