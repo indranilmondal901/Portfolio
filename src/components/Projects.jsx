@@ -22,13 +22,14 @@ const Projects = () => {
             <h1 className="display-5 mb-0">My Projects</h1>
             <a className="btn btn-square btn-primary me-2" href="https://github.com/indranilmondal901?tab=repositories"><i className="fab fa-github"></i></a>
           </div>
-          {/* <div className="col-lg-6 text-lg-end">
-            <ul className="list-inline mx-n3 mb-0" id="portfolio-flters">
-              <li className={`mx-3 ${activeFilter === '*' ? 'active' : ''}`} onClick={() => handleFilterClick('*')}>All Projects</li>
+          <div className="col-lg-6 text-lg-end">
+             <ul className="list-inline mx-n3 mb-0" id="portfolio-flters">
+              {/*<li className={`mx-3 ${activeFilter === '*' ? 'active' : ''}`} onClick={() => handleFilterClick('*')}>All Projects</li>
               <li className={`mx-3 ${activeFilter === 'first' ? 'active' : ''}`} onClick={() => handleFilterClick('first')}>UI/UX Design</li>
-              <li className={`mx-3 ${activeFilter === 'second' ? 'active' : ''}`} onClick={() => handleFilterClick('second')}>Graphic Design</li>
+              <li className={`mx-3 ${activeFilter === 'second' ? 'active' : ''}`} onClick={() => handleFilterClick('second')}>Graphic Design</li> */}
+              <li></li>
             </ul>
-          </div> */}
+          </div>
         </div>
         <div className="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
           {projects.map((project) => (

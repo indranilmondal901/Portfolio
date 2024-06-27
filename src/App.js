@@ -1,91 +1,4 @@
-// import React, { useState, useEffect } from 'react';
-// import { BrowserRouter,Routes, Route } from 'react-router-dom';
-// import Joyride from 'react-joyride';
-// import HomeSection from './components/HomeSection';
-// import About from './components/About';
-// import Expertise from './components/Expertise';
-// import Service from './components/Service';
-// import Projects from './components/Projects';
-// import Testimonial from './components/Testimonial';
-// import ContactForm from './components/ContactForm';
-// import Map from './components/Map';
-// import Copyright from './components/Copyright';
-// import Navbar from './components/Navbar';
-// import ProfessionalExperience from './components/ProfessionalExperience';
-
-// const App = () => {
-//   const [run, setRun] = useState(false);
-//   const [steps] = useState([
-//     // {
-//     //   target: '.navbar',
-//     //   content: 'This is the navigation bar.',
-//     //   placement: 'bottom',
-//     // },
-//     {
-//       target: '#home',
-//       content: 'This is the header section.',
-//       placement: 'center',
-//     },
-//     {
-//       target: '#about',
-//       content: 'This is the about section.',
-//       placement: 'top',
-//     },
-//     {
-//       target: '#project',
-//       content: 'Here you can see my projects.',
-//       placement: 'top',
-//     },
-//     {
-//       target: '#contact',
-//       content: 'Feel free to contact me here.',
-//       placement: 'top',
-//     },
-//   ]);
-
-//   useEffect(() => {
-//     setRun(true);
-//   }, []);
-
-//   return (
-//     <BrowserRouter>
-//       <Joyride
-//         steps={steps}
-//         run={run}
-//         continuous
-//         scrollToFirstStep
-//         showProgress
-//         showSkipButton
-//         styles={{
-//           options: {
-//             zIndex: 10000,
-//           },
-//         }}
-//       />
-//       <Navbar />
-//       <Routes>
-//         <Route exact path="/">
-//           <HomeSection />
-//           <About />
-//           <Expertise />
-//           {/* <Service /> */}
-//           <Projects />
-//           <Testimonial />
-//           <ContactForm />
-//           <Map />
-//           <Copyright />
-//         </Route>
-//         <Route path="/professional-experience">
-//           <ProfessionalExperience />
-//         </Route>
-//       </Routes>
-//     </BrowserRouter>
-//   );
-// };
-
-// export default App;
-
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Joyride from 'react-joyride';
 import HomeSection from './components/HomeSection';
@@ -99,6 +12,9 @@ import Copyright from './components/Copyright';
 import Navbar from './components/Navbar';
 import ProfessionalExperience from './components/ProfessionalExperience';
 import KeyRoles from './components/KeyRoles';
+
+import ProfessionalExp from "./components/ProfessionalExp.json";
+
 
 const App = () => {
   const [run, setRun] = useState(false);
@@ -172,7 +88,7 @@ const App = () => {
             </>
           }
         />
-        <Route path="/professional-experience" element={<ProfessionalExperience />} />
+        <Route path="/professional-experience" element={<ProfessionalExperience data={ProfessionalExp}/>} />
         <Route path="/key-roles" element={<KeyRoles />} />
       </Routes>
     </BrowserRouter>

@@ -1,12 +1,12 @@
 import React,{useEffect, useState} from 'react';
-import ProfessionalExp from "./ProfessionalExp.json";
+// import ProfessionalExp from "./ProfessionalExp.json";
 
-const ProfessionalExperience = () => {
+const ProfessionalExperience = ({data}) => {
     const [projects,setProjects] = useState([]);
     useEffect(()=>{
-        setProjects(ProfessionalExp);
-    },[])
-
+        setProjects(data);
+    },[data])
+console.log(projects);
   return (
     <div className="container-xxl py-6" id="experience">
       <div className="container">
