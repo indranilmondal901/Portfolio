@@ -34,7 +34,7 @@ const Projects = () => {
           {projects.map((project) => (
             (activeFilter === '*' || project.category === activeFilter) && (
               <div key={project.id} className={`col-lg-4 col-md-6 portfolio-item ${project.category}`}>
-                <div className="portfolio-img rounded overflow-hidden" style={{height:200,width:400}}>
+                <div className="portfolio-img rounded overflow-hidden">
                   <img className="img-fluid" src={project.image} alt={project.title}/>
                   <div className="portfolio-btn">
                     <a className="btn btn-lg-square btn-outline-secondary border-2 mx-1" href={project.lightboxImage} data-lightbox="portfolio"><i className="fa fa-eye"></i></a>

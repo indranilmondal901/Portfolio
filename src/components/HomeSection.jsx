@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Typed from "typed.js";
 
-const HomeSection = ({setRun}) => {
+const HomeSection = ({ setRun }) => {
   useEffect(() => {
     // Initialize Typed.js
     const typed = new Typed(".typed-text-output", {
@@ -9,7 +9,7 @@ const HomeSection = ({setRun}) => {
         "Web Designer",
         "Web Developer",
         "Full Stack Web Developer",
-        "Hybrid Mobile App Developer"
+        "Hybrid Mobile App Developer",
       ],
       typeSpeed: 50,
       loop: true, // Optional, enables continuous typing
@@ -33,9 +33,13 @@ const HomeSection = ({setRun}) => {
               {/* <a href="./Indranil_Mondal_CV.pdf" className="btn btn-primary py-3 px-4 me-5">
                 Download CV
               </a> */}
-              <a href="./Indranil_Mondal_CV.pdf" className="btn btn-primary py-3 px-4 me-5" download>
-  Download CV
-</a>
+              <a
+                href={require("./Indranil_Mondal_Resume.pdf")}
+                className="btn btn-primary py-3 px-4 me-5"
+                download = "Indranil_Mondal_Resume"
+              >
+                Download CV
+              </a>
 
               <button
                 type="button"
@@ -43,12 +47,12 @@ const HomeSection = ({setRun}) => {
                 // data-bs-toggle="modal"
                 // data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
                 // data-bs-target="#videoModal"
-                onClick={()=>setRun(true)}
+                onClick={() => setRun(true)}
               >
                 <span></span>
               </button>
               <h5 className="ms-4 mb-0 d-none d-sm-block"> Start Tour</h5>
-            </div> 
+            </div>
           </div>
           <div
             className="col-lg-6"
@@ -57,8 +61,7 @@ const HomeSection = ({setRun}) => {
               position: "relative",
               // width: "300px",
               // height: "300px",
-              background:
-                "linear-gradient(to top, #FAFAFB 50%, #FFC448 100%)",
+              background: "linear-gradient(to top, #FAFAFB 50%, #FFC448 100%)",
             }}
           >
             <img
@@ -66,10 +69,12 @@ const HomeSection = ({setRun}) => {
               src="img/myProfile.png"
               alt=""
               width={"100%"}
-              style={{
-                // clipPath: ` polygon(100% 0%, 100% 52%, 100% 100%, 14% 99%, 0% 50%, 13% 0)`,
-                // border: "2px solid black",
-              }}
+              style={
+                {
+                  // clipPath: ` polygon(100% 0%, 100% 52%, 100% 100%, 14% 99%, 0% 50%, 13% 0)`,
+                  // border: "2px solid black",
+                }
+              }
             />
           </div>
         </div>
