@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigate = useNavigate();
   return (
     <div className="container-xxl py-6" id="about">
       <div className="container">
@@ -43,9 +45,9 @@ const About = () => {
               <i className="far fa-check-circle text-primary me-3"></i>On Time
               Project Delivery
             </p> */}
-            <a className="btn btn-primary py-3 px-5 mt-3" href="">
+            <p className="btn btn-primary py-3 px-5 mt-3" onClick={() => navigate("/professional-experience")}>
               Read More
-            </a>
+            </p>
           </div>
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
             <div className="row g-3 mb-4">
