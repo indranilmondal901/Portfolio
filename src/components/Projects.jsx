@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import projectsData from './ProjectsData.json';
+import { useNavigate } from 'react-router-dom';
 
 const Projects = () => {
+  const navigate = useNavigate();
   const [projects, setProjects] = useState([]);
   const [activeFilter, setActiveFilter] = useState('*');
 
@@ -9,10 +11,6 @@ const Projects = () => {
     // Simulating fetching data from JSON file
     setProjects(projectsData);
   }, []);
-
-  // const handleFilterClick = (filter) => {
-  //   setActiveFilter(filter);
-  // };
 
   return (
     <div className="container-xxl py-6 pt-5" id="project">
@@ -24,6 +22,8 @@ const Projects = () => {
           </div>
           <div className="col-lg-6 text-lg-end">
              <ul className="list-inline mx-n3 mb-0" id="portfolio-flters">
+             <li className='mx-3' style={{color: "#85A0DC",borderColor: "#85A0DC"}}>Minor Projects</li>
+             <li className='mx-3' onClick={() => navigate("/professional-experience")}>Company Projects</li>
               {/*<li className={`mx-3 ${activeFilter === '*' ? 'active' : ''}`} onClick={() => handleFilterClick('*')}>All Projects</li>
               <li className={`mx-3 ${activeFilter === 'first' ? 'active' : ''}`} onClick={() => handleFilterClick('first')}>UI/UX Design</li>
               <li className={`mx-3 ${activeFilter === 'second' ? 'active' : ''}`} onClick={() => handleFilterClick('second')}>Graphic Design</li> */}
