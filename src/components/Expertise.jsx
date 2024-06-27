@@ -448,7 +448,7 @@ const Expertise = () => {
                     <h5>MERN Stack Web Development</h5>
                     <hr className="text-primary my-2" />
                     <p className="text-primary mb-1">2022 - 2023</p>
-                    <h6 className="mb-0">Cambridge University</h6>
+                    <h6 className="mb-0">10x Academy</h6>
                   </div>
 
                   {/* <div className="col-sm-6">
